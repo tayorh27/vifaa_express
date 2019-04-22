@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "634365578570",
+    "firebase_url": "https://vifaaexpress-297f9.firebaseio.com",
+    "project_id": "vifaaexpress-297f9",
+    "storage_bucket": "vifaaexpress-297f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634365578570:android:1afcb04b2b65e02c",
+        "android_client_info": {
+          "package_name": "com.ve.vifaa_express"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "634365578570-v1pk6e3s2ns27ioij52lm41f6ttvo75i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy5V3DT_MgUZCoTXYLIpW6d_aQjF8Ql6E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
