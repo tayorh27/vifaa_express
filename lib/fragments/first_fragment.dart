@@ -126,6 +126,12 @@ class _MapFragment extends State<MapFragment> {
 
   double mCurrentLatitude = 0, mCurrentLongitude = 0;
 
+
+  @override
+  void dispose() {
+    _locationSubscription.cancel();
+  }
+
   @override
   void initState() {
     // TODO: implement initState
@@ -1289,7 +1295,7 @@ class _MapFragment extends State<MapFragment> {
       mUtils.sendPushNotification(notification_id, 'VifaaExpress',
           'You have an incoming request. Accept the request now.')
           .whenComplete(() {
-        Timer(Duration(seconds: 10), () {
+        Timer(Duration(seconds: 20), () {
           if (currentTrip == null) {
             tripRef.child('request').remove();
             int next_index = index + 1;
